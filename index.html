@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="page-body">
+    <div class="test">
+      <h1 class="test__title">Тестовое задание</h1>
+
+      <div class="tasks">
+        <nav class="tasks__items">
+          <a href="#test_01" class="tasks__item"><h2 class="tasks__title">Пункт 1</h2></a>
+          <a href="#test_02" class="tasks__item"><h2 class="tasks__title">Пункт 2</h2></a>
+          <a href="#test_03" class="tasks__item"><h2 class="tasks__title">Пункт 3</h2></a>
+          <a href="#test_04" class="tasks__item"><h2 class="tasks__title">Пункт 4</h2></a>
+          <a href="#test_05" class="tasks__item"><h2 class="tasks__title">Пункт 5</h2></a>
+          <a href="#test_06" class="tasks__item"><h2 class="tasks__title">Пункт 6</h2></a>
+          <a href="#test_07" class="tasks__item"><h2 class="tasks__title">Пункт 7</h2></a>
+          <a href="#test_08" class="tasks__item"><h2 class="tasks__title">Пункт 8</h2></a>
+          <a href="#test_09" class="tasks__item"><h2 class="tasks__title">Пункт 9</h2></a>
+        </nav>
+
+        <div class="tasks__answers">
+          <div id="test_01" class="answer answer--task-01">
+            <p class="answer__lead">Cоздать сетку каталога состоящую из 4х колонок и 2 рядов с помощью flex</p>
+            <div class="catalog">
+              <ul class="catalog__list">
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_01" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="test_02" class="answer answer--task-02">
+            <p class="answer__lead">Поменять направление осей с дефолтного состояния</p>
+            <div class="catalog">
+              <ul class="catalog__list catalog__list--column">
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_02" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="test_03" class="answer answer--task-03">
+            <p class="answer__lead">Выровнять один элемент по поперечней оси</p>
+            <div class="catalog">
+              <ul class="catalog__list catalog__list--column">
+                <li class="catalog__item catalog__item--self-align">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_03" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="test_04" class="answer answer--task-04">
+            <p class="answer__lead">Задать выравнивание ряду flex-end</p>
+            <div class="catalog">
+              <ul class="catalog__list catalog__list--column catalog__list--first-row-align">
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_04" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="test_05" class="answer answer--task-05">
+            <p class="answer__lead">Создать сетку каталога состоящую из 4х колонок и 2 рядов с помощью inline-block</p>
+            <div class="catalog">
+              <ul class="catalog__list catalog__list--inline-blocks">
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_05" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="test_06" class="answer answer--task-06">
+            <p class="answer__lead">Создать сетку каталога состоящую из 4х колонок и 2 рядов с помощью float</p>
+            <div class="catalog clearfix">
+              <ul class="catalog__list catalog__list--float">
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-01.jpg"
+                        alt="item 1"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, sit.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-02.jpg"
+                        alt="item 2"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-03.jpg"
+                        alt="item 3"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-04.jpg"
+                        alt="item 4"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-05.jpg"
+                        alt="item 5"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-06.jpg"
+                        alt="item 6"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem, ipsum dolor.</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-07.jpeg"
+                        alt="item 7"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="catalog__item">
+                  <div class="catalog-item">
+                    <a href="#test_06" class="catalog-item__link">
+                      <img
+                        class="catalog-item__image"
+                        src="images/photo-08.jpg"
+                        alt="item 8"
+                        width="200"
+                        height="100"
+                      />
+                      <p class="catalog-item__lead">Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
