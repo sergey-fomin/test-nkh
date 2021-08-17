@@ -1,5 +1,11 @@
 /* Variables */
 :root {
+  --page_bg_color: #333333;
+  --main_shadow_color: #101010;
+
+  --basic_white: #fff;
+  --basic_black: #000;
+
   --item_01_color: #e64a19;
   --item_02_color: #f57c00;
   --item_03_color: #afb42b;
@@ -9,6 +15,11 @@
   --item_07_color: #303f9f;
   --item_08_color: #7b1fa2;
   --item_09_color: #c2185b;
+
+  --catalog_item_bg_color: #cacaca;
+  --catalog_item_shadow_color: rgba(0, 0, 0, 0.35);
+
+  --table_cell_bg_color: #cacaca;
 }
 
 /* Global */
@@ -25,8 +36,8 @@
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: white;
-  background-color: #333333;
+  color: var(--basic_white);
+  background-color: var(--page_bg_color);
 }
 
 .test {
@@ -65,7 +76,7 @@
 }
 
 .tasks__answers {
-  box-shadow: -10px 20px 10px 5px #101010;
+  box-shadow: -10px 20px 10px 5px var(--main_shadow_color);
 }
 
 /* Answers (common) */
@@ -87,7 +98,7 @@
   position: absolute;
   top: -50px;
   border-radius: 15px 15px 0 0;
-  box-shadow: -10px 20px 10px 5px #101010;
+  box-shadow: -10px 20px 10px 5px var(--main_shadow_color);
   z-index: -1;
 }
 
@@ -202,15 +213,15 @@
 .catalog-item {
   height: 100%;
   padding: 10px;
-  color: #000;
-  background-color: #cacaca;
+  color: var(--basic_black);
+  background-color: var(--catalog_item_bg_color);
   display: flex;
   flex-direction: column;
 }
 
 .catalog-item:hover,
 .catalog-item:focus {
-  box-shadow: 8px -8px 5px -5px rgba(0, 0, 0, 0.35) inset;
+  box-shadow: 8px -8px 5px -5px var(--catalog_item_shadow_color) inset;
 }
 
 .catalog-item:active {
@@ -295,4 +306,32 @@
 
 .catalog__list--float .catalog__item:nth-child(4n) {
   margin-right: 0;
+}
+
+/* Answer 07 */
+
+.table {
+  border: 5px solid var(--basic_black);
+  border-spacing: 20px;
+  margin: 0 auto;
+}
+
+.table__cell {
+  width: 200px;
+  height: 200px;
+  background-color: var(--table_cell_bg_color);
+}
+
+/* Answer 08 */
+
+.table--on-div {
+  display: table;
+}
+
+.table--on-div .table__row {
+  display: table-row;
+}
+
+.table--on-div .table__cell {
+  display: table-cell;
 }
