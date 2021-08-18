@@ -1,4 +1,4 @@
-document.location.replace("/index.html#test_01");
+document.querySelector(".tasks__item").click();
 
 document.querySelectorAll(".accordeon__title").forEach((item) =>
   item.addEventListener("click", () => {
